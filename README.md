@@ -29,7 +29,6 @@ This project introduces an autonomous AI agent that:
 * AI-powered content improvement
 * AEO optimization (FAQ & structured answers)
 * Ranking prediction
-* Competitor analysis
 * Real-time suggestion engine
 
 ## 🧠 Tech Stack
@@ -38,7 +37,7 @@ This project introduces an autonomous AI agent that:
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
 * **AI/NLP:** OpenAI API / Python
-* **Web Scraping:** Cheerio / Puppeteer
+* **Web Scraping:** Firecrawl(api based web scraping)
 
 ## 📂 Project Structure
 
@@ -61,13 +60,6 @@ project-root/
 5. Provides optimization suggestions
 6. Displays results on dashboard
 
-
-## 📊 Expected Outcome
-
-* Improved website ranking
-* Better visibility in AI-generated answers
-* Reduced manual SEO effort
-* Data-driven content optimization
 
 ## 📌 Future Enhancements
 
