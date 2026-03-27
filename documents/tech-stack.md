@@ -2,23 +2,46 @@
 
 ## Frontend
 
-* React.js
-* HTML, CSS, JavaScript
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui (UI components)
+
+---
 
 ## Backend
 
-* Node.js
-* Express.js
+- Supabase Edge Functions (Deno runtime)
+
+---
 
 ## Database
 
-* MongoDB
+- Supabase (PostgreSQL)
 
-## AI / NLP
+---
 
-* OpenAI API / Python NLP libraries
+## AI / LLM
 
-## Tools
+- Lovable AI Gateway
+- Google Gemini 2.5 Flash
 
-* Cheerio / Puppeteer (Web scraping)
-* Git & GitHub (Version control)
+---
+
+## Web Scraping
+
+- Firecrawl API
+
+---
+
+## Charts & Visualization
+
+- Recharts
+
+---
+
+## Integration
+
+- GitHub REST API (for live updates)
+- Personal Access Token (authentication)

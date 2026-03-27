@@ -2,21 +2,21 @@
 
 ## 🔍 Core Features
 
-* Automated website analysis
-* SEO score generation
-* Keyword and meta tag evaluation
-* Content structure analysis
+- Automated website analysis (URL-based input)
+- SEO score generation
+- Keyword, meta tag, and content structure analysis
+- Detection of SEO & AEO issues
 
 ## 🚀 Advanced Features
 
-* AI-powered content rewriting
-* AEO optimization (FAQ & structured answers)
-* Ranking prediction model
-* Competitor analysis
-* Real-time suggestion engine
+- AI-powered content improvement
+- AEO optimization (FAQ & structured answers)
+- Smart recommendation engine
+- One-click optimization (OptiClick SEO concept)
+- Automated Content Update (Authorized Access) – Updates website content via API/GitHub integration
 
 ## 📊 Dashboard Features
 
-* Visual SEO score
-* Performance tracking
-* Improvement suggestions
+- Visual SEO score display
+- Actionable improvement suggestions
+- User-friendly result dashboard
