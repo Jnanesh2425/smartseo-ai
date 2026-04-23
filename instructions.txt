@@ -1,0 +1,4 @@
+#TO RUN PROJECT
+cd project
+npm install
+npm run dev
