@@ -69,13 +69,13 @@ One-click fix allows you to automatically apply (On-Page SEO) improvements direc
 
 
 ## Demo (Screenshots)
- Enter URL 
+ Enter URL <br>
 <img width="1280" height="627" alt="image" src="https://github.com/user-attachments/assets/d4496903-bd86-4715-8eab-9ad24690323a" />
 <br>
- SEO Dashboard (Scores Overview)
+ SEO Dashboard (Scores Overview)<br>
 <img width="1280" height="625" alt="image" src="https://github.com/user-attachments/assets/fa82f2f4-0a0f-42f8-9b9c-22629f00b34f" />
 <br>
- Suggestions + One-Click Fix
+ Suggestions + One-Click Fix<br>
 <img width="1280" height="632" alt="image" src="https://github.com/user-attachments/assets/c8984a01-a778-41a4-97a4-9202946d1364" />
 <br>
 
