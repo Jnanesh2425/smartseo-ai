@@ -1,5 +1,5 @@
 # AI On-Page SEO Optimizer
-Optimize your website for search engines and AI — instantly.
+<i>> Optimize your website for search engines and AI — instantly.</i>
 
 
 A tool that analyzes and improves your website’s on-page SEO with actionable suggestions and optional one-click fixes.
