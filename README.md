@@ -1,70 +1,110 @@
-# 🚀 Autonomous SEO & AEO Optimization Agent
+# AI On-Page SEO Optimizer
 
-An AI-powered system that analyzes websites and provides intelligent recommendations to improve search engine rankings (SEO) and answer engine visibility (AEO).
+A tool that analyzes and improves your website’s on-page SEO with actionable suggestions and optional one-click fixes.
 
-## 📌 Problem
+On-page SEO refers to optimizing elements within your webpage — such as headings, meta tags, and content — to make it easier for search engines to understand and rank your page.
 
-Businesses often struggle to optimize their websites for search engines and AI-driven answer engines. Existing tools require manual effort and do not provide intelligent, automated suggestions.
+It is important because:
 
-## 💡 Solution
+* It directly impacts how your page appears in search results
+* It improves content clarity for both users and search engines
+* It forms the foundation for any successful SEO strategy
 
-This project introduces an autonomous AI agent that:
-
-* Analyzes website content
-* Evaluates SEO performance
-* Provides actionable improvements
-* Optimizes content for AI-based answers
-
-## ⚙️ Features
-
-### 🔍 Core Features
-
-* Website SEO analysis
-* Keyword and meta tag evaluation
-* Content structure analysis
-* SEO scoring system
-
-### 🚀 Advanced Features
-
-* AI-powered content improvement
-* AEO optimization (FAQ & structured answers)
-* Ranking prediction
-* Real-time suggestion engine
-
-## 🧠 Tech Stack
-
-* **Frontend:** React.js
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB
-* **AI/NLP:** OpenAI API / Python
-* **Web Scraping:** Firecrawl(api based web scraping)
-
-## 📂 Project Structure
-
-```
-project-root/
-│
-├── client/              # Frontend (React)
-├── server/              # Backend (Node.js)
-├── documents/           # Project documentation
-├── weekly-reports/      # Weekly progress reports
-└── README.md
-```
-
-## 🔄 Workflow
-
-1. User enters a website URL
-2. System extracts webpage data
-3. AI analyzes SEO and content
-4. Generates SEO score
-5. Provides optimization suggestions
-6. Displays results on dashboard
+This project focuses strictly on traditional on-page SEO, helping you identify issues and fix them quickly without going through complex audits.
 
 
-## 📌 Future Enhancements
 
-* Browser extension for real-time analysis
-* Multi-language support
-* Advanced ranking prediction model
-* Integration with live search engine APIs
+## Overview
 
+This project takes a live website URL, crawls the page, extracts key on-page SEO elements, and uses AI to generate improvements.
+
+Along with suggestions, it also provides:
+
+* An SEO score based on traditional on-page factors
+* An AEO score (Answer Engine Optimization) to evaluate how well your content is structured for AI-generated answers
+
+
+
+## Features
+
+- Crawls live websites using Firecrawl to extract real content, headings, and metadata  
+- Analyzes on-page SEO elements like H1 structure, meta tags, and content quality  
+- Focuses only on traditional on-page SEO (no off-page or technical SEO)  
+- Generates an SEO score based on on-page factors  
+- Generates an AEO score to evaluate AI-friendly content structure  
+- Provides clear AI-based suggestions for headings, meta tags, and content  
+- Keeps suggestions aligned with your existing content instead of rewriting everything  
+- Supports one-click fix to apply changes directly to your repository  
+
+### One-Click Fix Disclaimer
+- Supports single-page updates only  
+- Limited to on-page elements (content, headings, meta tags)  
+- Review changes before deploying  
+
+ 
+- Compatible with static and content-driven pages  
+
+
+## Tech Stack
+
+| Layer / Component | Technology Used        |
+|-------------------|------------------------|
+| Frontend UI       | React (Vite)           |
+| Backend Services  | Supabase               |
+| Crawling Engine   | Firecrawl              |
+| AI Processing     | Gemini                 |
+
+## How It Works
+
+1. Enter a website URL  
+2. The page is crawled using Firecrawl  
+3. SEO elements are extracted (headings, meta tags, content)  
+4. Gemini analyzes the data  
+5. SEO and AEO scores are generated  
+6. Suggestions are provided  
+7. Optional one-click fix updates your repository
+
+
+## Demo (Screenshots)
+<img width="1280" height="627" alt="image" src="https://github.com/user-attachments/assets/d4496903-bd86-4715-8eab-9ad24690323a" />
+<br>
+
+<img width="1280" height="625" alt="image" src="https://github.com/user-attachments/assets/fa82f2f4-0a0f-42f8-9b9c-22629f00b34f" />
+<br>
+<img width="1280" height="632" alt="image" src="https://github.com/user-attachments/assets/c8984a01-a778-41a4-97a4-9202946d1364" />
+<br>
+
+
+
+## Running Locally
+
+Follow these steps to run the project on your local machine.
+
+1. Clone the repository  
+   Copy your repository link and clone it using Git, then open the project folder.
+
+2. Install dependencies  
+   Run `npm install` in your project directory.
+
+3. Set up environment variables  
+   Create a `.env` file in the root folder and add:
+
+   VITE_FIRECRAWL_API_KEY=your_key  
+   VITE_GEMINI_API_KEY=your_key  
+   SUPABASE_URL=your_url  
+   SUPABASE_ANON_KEY=your_key  
+   GITHUB_TOKEN=your_token  
+
+4. Start the development server  
+   Run `npm run dev`
+
+5. Open in browser  
+   Go to: http://localhost:5173
+   
+
+## Future Enhancements
+
+- Multi-page SEO analysis for full website optimization  
+- More advanced SEO and AEO scoring with detailed insights  
+- Real-time preview of suggested changes before applying  
+- Built-in AI assistant for SEO guidance and quick fixes  
