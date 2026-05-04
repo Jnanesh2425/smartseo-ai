@@ -4,6 +4,8 @@ A tool that analyzes and improves your website’s on-page SEO with actionable s
 
 On-page SEO refers to optimizing elements within your webpage — such as headings, meta tags, and content — to make it easier for search engines to understand and rank your page.
 
+Understanding on-page SEO is important because it directly controls how your content is interpreted and displayed in search results. Well-structured headings, relevant meta tags, and clear content help search engines accurately understand your page without relying on external factors. This improves visibility, ensures your content matches user intent, and creates a strong foundation for ranking — even before considering off-page or technical SEO.
+
 It is important because:
 
 * It directly impacts how your page appears in search results
@@ -31,18 +33,19 @@ Along with suggestions, it also provides:
 - Analyzes on-page SEO elements like H1 structure, meta tags, and content quality  
 - Focuses only on traditional on-page SEO (no off-page or technical SEO)  
 - Generates an SEO score based on on-page factors  
-- Generates an AEO score to evaluate AI-friendly content structure  
 - Provides clear AI-based suggestions for headings, meta tags, and content  
-- Keeps suggestions aligned with your existing content instead of rewriting everything  
-- Supports one-click fix to apply changes directly to your repository  
+- Keeps suggestions aligned with your existing content instead of rewriting everything
+- Real-time preview of suggested changes before applying   
+- Supports one-click fix to apply changes directly to your repository
 
-### One-Click Fix Disclaimer
-- Supports single-page updates only  
+### One-Click Fix Disclaimer 
 - Limited to on-page elements (content, headings, meta tags)  
 - Review changes before deploying  
+- Compatible with static and content-driven pages
 
- 
-- Compatible with static and content-driven pages  
+## Key Feature
+
+One-click fix allows you to automatically apply (On-Page SEO) improvements directly to your codebase, reducing manual effort.
 
 
 ## Tech Stack
@@ -66,11 +69,13 @@ Along with suggestions, it also provides:
 
 
 ## Demo (Screenshots)
+ Enter URL 
 <img width="1280" height="627" alt="image" src="https://github.com/user-attachments/assets/d4496903-bd86-4715-8eab-9ad24690323a" />
 <br>
-
+ SEO Dashboard (Scores Overview)
 <img width="1280" height="625" alt="image" src="https://github.com/user-attachments/assets/fa82f2f4-0a0f-42f8-9b9c-22629f00b34f" />
 <br>
+ Suggestions + One-Click Fix
 <img width="1280" height="632" alt="image" src="https://github.com/user-attachments/assets/c8984a01-a778-41a4-97a4-9202946d1364" />
 <br>
 
@@ -105,6 +110,5 @@ Follow these steps to run the project on your local machine.
 ## Future Enhancements
 
 - Multi-page SEO analysis for full website optimization  
-- More advanced SEO and AEO scoring with detailed insights  
-- Real-time preview of suggested changes before applying  
+- More advanced SEO and AEO scoring with detailed insights 
 - Built-in AI assistant for SEO guidance and quick fixes  
